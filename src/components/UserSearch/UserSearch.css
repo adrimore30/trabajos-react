@@ -1,0 +1,46 @@
+/* UserSearch.css - Estilos solo para el componente */
+.user-search {
+  padding: 20px;
+  background-color: #fff4f8;
+  border-right: 1px solid #f3dce6; /* separación visual opcional */
+  height: 100%;
+  overflow-y: auto;
+}
+
+.user-search input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #e0caff;
+  background-color: #f7f3ff;
+  color: #333;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.user-search input[type="text"]:focus {
+  outline: none;
+  border-color: #c8a2c8;
+}
+
+.user-search ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-search li {
+  background-color: #faf6ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #c9a5fc;
+  color: #444;
+  transition: background-color 0.3s;
+}
+
+.user-search li:hover {
+  background-color: #e0caff;
+  cursor: pointer;
+}

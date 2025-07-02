@@ -1,4 +1,4 @@
-
+import "./Sidebar.css";
 import { useState } from "react";
 
 export const Sidebar = () => {

@@ -1,7 +1,7 @@
 /* Barra horizontal que sigue llamándose Sidebar */
 .sidebar {
   width: 100%;
-  background-color: #fce4ec; /* rosa claro */
+  background-color: #fff4f8; /* rosa claro */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 12px 0;
   display: flex;

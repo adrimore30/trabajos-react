@@ -1,7 +1,9 @@
+import './App.css';
 import {Header}from './components/Header/Header'
 import {Footer} from './components/Footer/Footer'
 import {Sidebar}from './components/Sidebar/Sidebar'
 import {Section}from './components/section/Sectionn'
+import {UserSearch}from './components/UserSearch/UserSearch'
 
 function App() {
 
@@ -11,7 +13,12 @@ function App() {
       <h2>aqui estoy subtitulando el header mediante el prop</h2>
        </Header>
        <Sidebar/>
-      <Section/>
+       {/* CONTENEDOR FLEXIBLE */}
+      <div className="main-content">
+        <UserSearch />
+        <Section />
+      </div>
+      
       <Footer/>
     </>
   )
