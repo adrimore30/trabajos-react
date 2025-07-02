@@ -1,32 +1,32 @@
 
 import './section.css';
 import { useState, useEffect} from 'react'
-import {UserCard} from '../UserCard/UserCard'
-import  ensalada from '../../assets/ensalada.png'
-import vegetall from '../../assets/vegetal.png'
-import verdduras from '../../assets/verduras.png'
+import {UserCard} from './UserCard/UserCard'
+import  estudiantee from '../../assets/estudiante.png'
+import graduadaa from '../../assets/graduada.png'
+import niñaa from '../../assets/niña.png'
 
 
 
 const users =[
   {
     id:1,
-    name:'ensalada',
-    description:'Ensalada rica y nutritiva',
-    image:ensalada
+    name:'ana',
+    description:'niña aburrida',
+    image:estudiantee
   },
   {
     id:2,
-    name:'vegetal',
-    description:'Come vegetales son muy nutritivos',
-    image:vegetall
+    name:'sophia',
+    description:'estoy graduada',
+    image:graduadaa
 
   },
   {
     id:3,
-    name:'verduras',
-    description:'No comas chatarra come bien',
-    image:verdduras
+    name:'julieta',
+    description:'yo bien',
+    image:niñaa
 
   }
 ]
@@ -52,7 +52,7 @@ const [count, setCount]= useState(0)
 
 <div>
     <h2>{count}</h2>
-    <button onClick={handleClick}>Contador</button>
+    <button className='boton' onClick={handleClick}>Contador</button>
       <section>
         {
           users.map((user)=>{

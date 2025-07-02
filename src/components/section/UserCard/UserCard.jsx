@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import "./UserCard.css";
 
 export const UserCard = ({user}) => {
     //estructura general de un hook

@@ -1,6 +1,6 @@
 section {
   padding: 40px;
-  background-color: #f8d7da;
+  background-color: #ffeef5;
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -49,17 +49,24 @@ section {
   padding: 0 10px;
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 1em;
-  background-color: #d9534f;
+.boton {
+  display: block; /* Para que puedas centrarlo con margin */
+  margin: 20px auto; /* Centro horizontal */
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #fa86ac;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(250, 134, 172, 0.3);
+  transition: all 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-button:hover {
-  background-color: #c9302c;
+.boton:hover {
+  background-color: #fa9d9d; /* Color alternativo al pasar el mouse */
+  box-shadow: 0 6px 14px rgb(248, 199, 197);
+  transform: scale(1.05); /* Agranda un poco */
 }
